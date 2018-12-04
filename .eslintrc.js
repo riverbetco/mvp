@@ -24,6 +24,7 @@ module.exports = {
 		'no-console': 'off',
 		'no-debugger': 'off',
 		'vue/max-attributes-per-line': 'off',
+		'vue/html-self-closing': 'off',
 		'prettier/prettier': ['error', {semi: false, singleQuote: true}]
 	}
 }

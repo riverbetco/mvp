@@ -14,9 +14,9 @@
       <div>
         <h3 class="paragraph-title">Transfer tokens</h3>
         <div class="row">
-          Recipent Address: <input v-model="recipentAddress" title="Recipent" >
+          Recipent Address: <input v-model="recipentAddress" title="Recipent" />
         </div>
-        <div class="row">Amount: <input v-model="amount" title="Amount" ></div>
+        <div class="row">Amount: <input v-model="amount" title="Amount" /></div>
         <div class="row"><button @click="transfer">Send</button></div>
         <div class="receipt-box">
           Receipt: <span style="color:green">{{ transferReceipt }}</span>
